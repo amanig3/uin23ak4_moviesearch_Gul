@@ -1,12 +1,12 @@
 body {
-    background: #f3f3f3;
+    background: #080404;
     padding-top: 0;
 }
 
 #container {
     width: 100%;
     max-width: 1200px;
-    background: #fff;
+    background: lightcyan;
     border-left: 2px solid #ccc;
     border-right: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
@@ -21,6 +21,16 @@ main {
 
 main > article {
     background-color: #f3f3f3;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+h1{
+    color: black;
+    text-align: none;
 }
 
 .movie-view{
@@ -44,7 +54,7 @@ main > article {
 .movie-card {
     max-width: 300px;
     width: 100%;
-    border: 1px solid #969595;
-    padding: 1rem;
+    border: 4px solid darkblue;
+    padding: 2rem;
     position: relative;
   }
